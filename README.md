@@ -1,4 +1,4 @@
-# atelier. — Personal Life Management System
+# Atelier ✨ — Personal Life Management System
 
 atelier. helps users organise tasks, track goals, check in on daily habits, and save notes in one personal workspace. It is built with React and Vite. Supabase handles authentication and email verification; workspace content is currently saved in browser localStorage.
 
