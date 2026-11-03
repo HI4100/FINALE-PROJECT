@@ -1,0 +1,11 @@
+Atelier animation/chart repair notes
+
+- Restored the original CosmicGalaxy particle animation behind the landing-page hero.
+- Set landing-page navigation links to cream-white.
+- Added automatic SVG line-draw animation to the real-data Progress trend chart.
+- Kept the existing real-data chart behavior: if no historical activity exists, it shows the empty-state message instead of fabricated data.
+- Browser storage cleared earlier may have deleted locally saved history; this source patch cannot recover that deleted data.
+
+Run from this folder:
+  npm.cmd install
+  npm.cmd run dev
