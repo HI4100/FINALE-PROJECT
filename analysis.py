@@ -49,9 +49,9 @@ def main():
     OUTPUT_DIR.mkdir(exist_ok=True)
     print(f"Loaded {len(df)} rows")
     for name, result in summaries.items():
-        print(f"\\n{name.upper()}\\n{result.to_string(index=False)}")
+        print(f"\n{name.upper()}\n{result.to_string(index=False)}")
         result.to_csv(OUTPUT_DIR / f"{name}.csv", index=False)
-    print(f"\\nSaved {len(summaries)} summary files to {OUTPUT_DIR}")
+    print(f"\nSaved {len(summaries)} summary files to {OUTPUT_DIR}")
     print("Reminder: data is synthetic; profit is illustrative.")
 
 
